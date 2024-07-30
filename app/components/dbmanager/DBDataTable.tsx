@@ -42,7 +42,7 @@ function Table({
       <tbody>
         {data.map((characterData) => (
           <tr key={characterData.name} className="even:bg-gray-800">
-            {getEntries(characterData).map(([key, value], i) => {
+            {getEntries(characterData).map(([key, value]) => {
               if (key === 'name') {
                 return (
                   <th key={`${value}-${key}`} scope="row">

@@ -7,9 +7,12 @@ import {
 } from '@/app/api/levelAscensionHelper';
 import { LevelAscension } from '@/app/api/types';
 
-export default function useLevelAscension(
-  defaultLevelAscension?: LevelAscension,
-): [LevelAscension, () => void, () => void, (v: LevelAscension) => void] {
+export default function useLevelAscension(): [
+  LevelAscension,
+  () => void,
+  () => void,
+  (v: LevelAscension) => void,
+] {
   const [levelAscension, setLevelAscension] = useState<LevelAscension>({
     level: 1,
     ascension: 0,
