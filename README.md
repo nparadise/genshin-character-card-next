@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 원신 캐릭터 카드 생성기
 
-## Getting Started
+원신 캐릭터 카드를 생성하고 수정하고 보는 페이지입니다.\
+캐릭터 이름, 타이틀, 레벨, 능력치를 입력하여 입력 값들이 캐릭터의 기원 이미지와 함께 카드로 보여집니다.
 
-First, run the development server:
+## 기술 스택
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Environment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Static Badge](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Static Badge](https://img.shields.io/badge/git-181717?style=for-the-badge&logo=github&logoColor=white)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Config
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Static Badge](https://img.shields.io/badge/PNpM-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
 
-## Learn More
+### Development
 
-To learn more about Next.js, take a look at the following resources:
+![Static Badge](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Static Badge](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Static Badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Static Badge](https://img.shields.io/badge/tailwind%20css-06B6D4?style=for-the-badge&logo=tailwind%20css&logoColor=white)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 주요 기능
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- 카드로 만들 캐릭터 선택, 능력치 설정 후 추가하기
+- 추가한 캐릭터 카드와 상호작용 (기울이기, 빛 비추기)
+- 추가한 캐릭터의 능력치 수정
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 설치 방법
+1. 저장소 복사: ```git clone https://github.com/nparadise/genshin-character-card-next.git```
+2. 폴더 이동: ```cd genshin-character-card-next```
+3. 의존성 설치: ```pnpm install```
+4. 개발 서버 실행: ```pnpm run dev```
+4. 웹페이지 접속: ```http://localhost:3000```
